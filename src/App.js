@@ -1,11 +1,12 @@
 
 import './App.css';
-
+import React from 'react'
+import Primeiro from './components/Primeiro';
 function App() {
+  const carlos = 'Matheus'
   return (
     <div className="App">
-      <h1>Olá Mundo e React</h1>
-      <p>Meu primeiro Projeto</p>
+      <Primeiro></Primeiro>
     </div>
   );
 }
